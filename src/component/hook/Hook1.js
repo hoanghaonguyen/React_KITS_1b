@@ -4,7 +4,7 @@ export default function Hook1() {
   const [name, setName] = useState("");
   return (
     <div>
-      <h1>Hook1, name:{name} </h1>
+      <h1>Hello: {name} </h1>
 
       <input
         type="text"
@@ -12,6 +12,8 @@ export default function Hook1() {
         value={name}
         onChange={(e) => setName(e.target.value)}
       />
+      <br />
+      <br />
     </div>
   );
 }

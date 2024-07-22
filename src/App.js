@@ -4,6 +4,7 @@ import Hook2 from "./component/hook/Hook2";
 function App() {
   return (
     <div>
+        <Hook1/>
         <Hook2/>
     </div>
   );
